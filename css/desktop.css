@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #e9ebed;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#box-logo {
+    width: 100%;
+    max-width: 350px;
+    height: 90px;
+    background-color: #fff;
+}
+
+#box-logo #logo {
+    width: 215px;
+    height: 70px;
+    background: #ccc;
+    padding: 15px;
+    margin-top: 10px;
+    margin-left: -20px;
+    box-shadow: 2px 2px 5px #2a2a2a;
+    animation: loading 3s linear infinite;
+}
+
+@keyframes loading {
+    0%, 100% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(10px);
+    }
+}
+
+#logo img {
+    height: 40px;
+}
+
+#box-login {
+    width: 100%;
+    max-width: 350px;
+    min-height: 45vh;
+    background-color: #fff;
+    border-radius: 3px;
+    padding-top: 60px;
+}
+
+#box-login section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#box-input form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#box-input form input {
+    width: 300px;
+    height: 35px;
+    border-radius: 3px;
+    border: none;
+    background-color: #fafafa;
+    padding: 0px 10px;
+    margin-top: 10px;
+}
+
+#box-input form section {
+    max-width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#box-input form section button {
+    width: 300px;
+    height: 35px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 20px;
+    display: inline;
+    color: #fff;
+    cursor: pointer;
+    transition-duration: .5s;
+    background-color: #b473d7;
+}
+
+#box-input form section button:hover {
+    opacity: 0.8;
+}
+
+#go-register {
+    width: 100%;
+    margin-top: 10px;
+}
+
+#go-register section {
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#go-register section label {
+    margin: 10px;
+    font-size: 0.8rem;
+    color: #8e8e8e;
+}
+
+#go-register section button {
+    border: none;
+    background: none;
+    font-size: 0.95rem;
+    color: #b473d7;
+    cursor: pointer;
+}
+
+#go-register section button:hover {
+    opacity: 0.8;
+}
+
+
+
+#box-cadastro {
+    width: 100%;
+    max-width: 350px;
+    min-height: 45vh;
+    background-color: #fff;
+    border-radius: 3px;
+    padding-top: 60px;
+    display: none;
+}
+
+#box-cadastro section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#box-input-cadastro form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#box-input-cadastro form input {
+    width: 300px;
+    height: 35px;
+    border-radius: 3px;
+    border: none;
+    background-color: #fafafa;
+    padding: 0px 10px;
+    margin-top: 10px;
+}
+
+#box-input-cadastro form section button {
+    width: 300px;
+    height: 35px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 20px;
+    display: inline;
+    color: #fff;
+    cursor: pointer;
+    transition-duration: .5s;
+    background-color: #4a54cf;
+}
+
+
+#box-input-cadastro form section button:hover {
+    opacity: 0.8;
+}
+
+#go-login {
+    width: 100%;
+    margin-top: 10px;
+}
+
+#go-login section {
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#go-login section label {
+    margin: 10px;
+    font-size: 0.8rem;
+    color: #8e8e8e;
+}
+
+#go-login section button {
+    border: none;
+    background: none;
+    font-size: 0.95rem;
+    color: #4a54cf;
+    cursor: pointer;
+}
+
+#go-login section button:hover {
+    opacity: 0.8;
+}
